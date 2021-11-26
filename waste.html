@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+body{
+  
+  position: absolute;
+  top:20%;
+  left: 30%;
+}
+.table
+{
+  background-color: rgb(126, 89, 160);
+  width: 600px;
+  color: white;
+  font-size: 16px;
+  display: table;
+  table-layout: fixed;
+}
+.head{
+  text-align: center;
+  display: table-header-group;
+ font-weight: 1000;
+ color: rgb(245, 232, 48);
+  
+}
+.head1{
+  display: table-cell; 
+  padding: 5px;
+  border: 1px solid black;
+  border-right: none;
+}
+.row{
+
+  
+  text-align: center;
+  display: table-row;
+}
+.cell1{
+  display: table-cell; 
+  border-top: none;
+
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+   padding: 5px;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="table">
+  <div class="head">
+   <div class="head1">name</div>
+   <div class="head1">profession</div>
+  </div>
+  <div class="row">
+    <div class="cell1">shiva</div>
+    <div class="cell1">webdoveloper</div>
+  </div>
+  <div class="row">
+    <div class="cell1">bhargavi</div>
+    <div class="cell1">testing</div>
+  </div>
+  <div class="row">
+    <div class="cell1">kalyan</div>
+    <div class="cell1">bank</div>
+  </div>
+</div>
+</body>
+</html>

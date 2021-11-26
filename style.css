@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+ 
+  background-color: rgb(29, 236, 236);
+}
+.main{
+  width:520px;
+  height:350px;
+position: absolute;
+background-color:#343434;
+left:27%;
+top:25%;
+border-radius: 10px;
+padding: 20px;
+ 
+ 
+}
+.sgc{
+  width:150px;
+  color:rgb(29, 236, 236) ;position: relative;
+  top:55px;
+  left: 75px;
+  font-size: 12px;
+  border-left: 4px solid rgb(29, 236, 236);
+  animation: example 3s ease  infinite ;
+}
+@keyframes  example{
+  0%{
+    transform: scale(1,1);
+    
+  }
+  50%{
+    transform: scale(1.1,1.1);
+     
+  }
+  100%{
+    transform: scale(1,1);
+    
+  }
+}
+ 
+.title{
+  margin-left: 7px;
+  text-transform: uppercase;
+}
+.marks{
+
+}
+.mar{
+    position:relative;
+   left:275px;
+   top:-50px;
+   padding:5px;
+   border: none;
+   border-bottom: 1px solid grey;
+   outline: none;
+   background-color: transparent;
+   margin-bottom: 5px;
+   padding-left: 10px;
+   color: white;
+   font-weight: bolder;
+}
+.mar::placeholder{
+  color:white;
+  font-weight: bolder;
+}
+.sub{
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color:rgb(29, 236, 236) ;
+
+}
+.show{
+  width: 400px;
+ 
+ padding:5px;
+  text-align: center;
+  margin-left: 30px;
+  color: white;
+  position: relative;
+  top: -15px;
+  display: none;
+ 
+}
+ 
